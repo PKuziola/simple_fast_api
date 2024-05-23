@@ -1,9 +1,6 @@
 from fastapi import FastAPI, Path, HTTPException
 from pydantic import BaseModel
 
-# https://www.youtube.com/watch?v=-ykeT6kk4bk&ab_channel=TechWithTim
-
-
 class Branch(BaseModel):
     id: int
     name: str
